@@ -30,6 +30,7 @@ return (
 <Route path='/' element={<Home/>}/>
 <Route path='/Listmovies' element={<ListMovies movies={movies} search={search} rate={rate} setMovies={setMovies} setSearch={setSearch} setRate={setRate}/>}/>
 <Route path='/movie/:id' element={<MovieProfil movies={movies}/>}/>
+
 </Routes>
 </div> 
   );
